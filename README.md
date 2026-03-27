@@ -1,3 +1,6 @@
+# python-toolkit
+A modular Python framework for user authentication and data management.
+
 ##  Project Overview | 项目概览
 
 **[English]** This toolkit is a professional-grade authentication system built with Python. Unlike traditional linear scripts, it employs a **Layered Architecture** to separate data handling, utility functions, and application logic. This ensures the code is scalable and reusable for future software development.
