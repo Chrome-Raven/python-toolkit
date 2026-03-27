@@ -25,6 +25,7 @@ A modular Python framework for user authentication and data management.
 │   ├── __init__.py
 │   └── login_system.py
 └── README.md             # Project documentation
+\`\`\`
 
 * **`core_logic/`**: The "Back-end." Handles JSON reading/writing and credential validation. (数据核心：负责 JSON 读写与身份校验)
 * **`utils/`**: The "Processors." Manages input cleaning, error trapping, and type conversion. (通用工具：负责输入清洗、异常捕获与类型转换)
