@@ -8,7 +8,7 @@ A modular Python framework for user authentication and data management.
 
 ---
 
-##  Architecture | 目录架构
+## Architecture | 目录架构
 
 > **"Separation of Concerns" (关注点分离)** is the core philosophy of this project.
 
@@ -25,11 +25,11 @@ A modular Python framework for user authentication and data management.
 │   ├── __init__.py
 │   └── login_system.py
 └── README.md             # Project documentation
-\`\`\`
+core_logic/: The "Back-end." Handles JSON reading/writing and credential validation. (数据核心：负责 JSON 读写与身份校验)
 
-* **`core_logic/`**: The "Back-end." Handles JSON reading/writing and credential validation. (数据核心：负责 JSON 读写与身份校验)
-* **`utils/`**: The "Processors." Manages input cleaning, error trapping, and type conversion. (通用工具：负责输入清洗、异常捕获与类型转换)
-* **`my_apps/`**: The "Interface." Implements the interactive Login/Register workflow. (应用接口：实现交互式的登录与注册流程)
+utils/: The "Processors." Manages input cleaning, error trapping, and type conversion. (通用工具：负责输入清洗、异常捕获与类型转换)
+
+my_apps/: The "Interface." Implements the interactive Login/Register workflow. (应用接口：实现交互式的登录与注册流程)
 
 ---
 
